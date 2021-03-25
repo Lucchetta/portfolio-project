@@ -57,18 +57,31 @@ p {
       line-height: 1.5;
       font-size: 24px;
   }
-  .about-section{
+  .content-container {
       padding: 160px 20px;
   }
-  .about-section h1 {
+  .content h1 {
       font-size: 64px;
       line-height: 80px;
+      text-align: center;
   }
-  .about-section h2 {
+  .content h2 {
       font-size: 18px;
       font-family: var(--default-font-family);
   }
-  .about-section-content {
+  .content h3 {
+      font-size: 24px;
+      line-height: 1.5;
+      margin: 20px 0;
+      font-family: var(--default-font-family);
+  }
+
+  .content p {
+      margin: 0;
+      font-size: 14px;
+  }
+
+  .content  {
       margin: 30px;
   }
   .about.html h1 {
@@ -84,9 +97,6 @@ p {
       padding: 15px 30px;
 
   }
-  
-      
-
   
   .btn-branding-outline {
    color: var(--branding-color);
@@ -110,6 +120,10 @@ p {
     }
     .hero {
         padding: 80px  20px;
+    }
+    .content {
+        text-align: center;
+        padding: 0;
     }
   
   @media (max-width: 900px) {
